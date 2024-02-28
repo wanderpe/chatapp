@@ -6,7 +6,6 @@ import { User } from "@supabase/supabase-js";
 import { useRouter } from "next/navigation";
 import ChatPresence from "./chatpresence";
 
-
 export default function ChatHeader({ user }: { user: User | undefined }) {
 	const router = useRouter();
 
